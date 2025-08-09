@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 type Car = {
   id: number;
@@ -41,7 +42,7 @@ export default function DetailsForCarsClient({ car }: { car: Car }) {
         </Link>
 
         <div className="relative flex-shrink-0">
-  <img
+  <Image
     src={`/${car.image}`}
     alt={`${car.make} ${car.model}`}
     width={600}
