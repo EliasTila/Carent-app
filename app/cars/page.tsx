@@ -35,7 +35,7 @@ const Cars: React.FC = () => {
     async function fetchCars(){
        
 
-        const res = await fetch("/cars.json")
+        const res = await fetch("https://carent-app-v23.vercel.app/cars.json")
         if(!res.ok){
             throw new Error("Couldn't fetch cars")
         }

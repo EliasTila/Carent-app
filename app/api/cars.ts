@@ -1,10 +1,14 @@
 import { NextResponse } from "next/server";
+import path from "path";
+import fs from "fs/promises";
 
 export async function GET() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/cars.json`);
-  if (!res.ok) {
+  try {
+    const filePath = path.join(process.cwd(), "public", "cars.json");
+    const jsonData = await fs.readFile(filePath, "utf-8");
+    const cars = JSON.parse(jsonData);
+    return NextResponse.json(cars);
+  } catch (error) {
     return new Response("Failed to load cars", { status: 500 });
   }
-  const cars = await res.json();
-  return NextResponse.json(cars);
 }

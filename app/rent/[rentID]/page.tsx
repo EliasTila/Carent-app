@@ -17,7 +17,7 @@ type Car = {
 
 
 const RentPage = async ({params}: any) => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/cars.json`);
+  const res = await fetch(`https://carent-app-v23.vercel.app/cars.json`);
   if (!res.ok) throw new Error("Failed to fetch cars");
 
   const cars: Car[] = await res.json();

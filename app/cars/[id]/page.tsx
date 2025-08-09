@@ -18,7 +18,7 @@ type Car = {
 
 
 const  DetailsForCars = async ({params}: any ) => {
-   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/cars.json`);
+   const res = await fetch(`https://carent-app-v23.vercel.app/cars.json`);
   const cars: Car[] = await res.json();
 
   const carId = Number(params.id);
