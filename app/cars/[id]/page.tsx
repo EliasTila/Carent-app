@@ -13,15 +13,11 @@ type Car = {
   price: number
 };
 
-type PageProps = {
-    params: {
-        id: string
-    }
-}
 
 
 
-const  DetailsForCars = async ({params}: PageProps) => {
+
+const  DetailsForCars = async ({params}: {params: {id: string}} ) => {
    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/cars.json`);
   const cars: Car[] = await res.json();
 
