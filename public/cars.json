@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "fuel_type": "Petrol",
+    "year": 2019,
+    "transmission": "Automatic",
+    "drive": "FWD",
+    "image": "car1.jpg",
+    "description": "Reliable and fuel-efficient, the 2019 Toyota Corolla offers comfort, advanced safety, and smooth performance for daily commutes and long road trips.",
+    "price": 45
+  },
+  {
+    "id": 2,
+    "make": "Honda",
+    "model": "Civic",
+    "fuel_type": "Petrol",
+    "year": 2018,
+    "transmission": "Manual",
+    "drive": "FWD",
+    "image": "car2.jpg",
+    "description": "The 2018 Honda Civic blends sporty handling with excellent fuel economy, a roomy interior, and proven reliability for city and highway driving.",
+    "price": 42
+  },
+  {
+    "id": 3,
+    "make": "Ford",
+    "model": "Focus",
+    "fuel_type": "Diesel",
+    "year": 2007,
+    "transmission": "Automatic",
+    "drive": "FWD",
+    "image": "car3.jpg",
+    "description": "Ford Focus 2007 diesel is durable, easy to maintain, and economical, perfect for everyday use and long-distance journeys.",
+    "price": 25
+  },
+  {
+    "id": 4,
+    "make": "Volkswagen",
+    "model": "Golf",
+    "fuel_type": "Petrol",
+    "year": 2017,
+    "transmission": "Manual",
+    "drive": "FWD",
+    "image": "car4.jpg",
+    "description": "The 2017 Volkswagen Golf combines refined design, modern tech, and enjoyable handling, making it a timeless choice for all drivers.",
+    "price": 40
+  },
+  {
+    "id": 5,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "fuel_type": "Petrol",
+    "year": 2019,
+    "transmission": "Automatic",
+    "drive": "FWD",
+    "image": "car5.jpg",
+    "description": "Hyundai Elantra 2019 offers a balance of comfort, technology, and fuel economy, ideal for both city driving and longer trips.",
+    "price": 43
+  },
+  {
+    "id": 6,
+    "make": "Kia",
+    "model": "Rio",
+    "fuel_type": "Petrol",
+    "year": 2018,
+    "transmission": "Manual",
+    "drive": "FWD",
+    "image": "car6.jpg",
+    "description": "Kia Rio 2018 is a compact, economical, and agile car, providing excellent reliability and low maintenance costs for budget-conscious drivers.",
+    "price": 38
+  },
+  {
+    "id": 7,
+    "make": "Ford",
+    "model": "Mustang",
+    "fuel_type": "Petrol",
+    "year": 2020,
+    "transmission": "Automatic",
+    "drive": "RWD",
+    "image": "car7.jpg",
+    "description": "The 2020 Ford Mustang delivers raw power, bold styling, and an authentic muscle car experience for true driving enthusiasts.",
+    "price": 95
+  },
+  {
+    "id": 8,
+    "make": "BMW",
+    "model": "M4",
+    "fuel_type": "Petrol",
+    "year": 2021,
+    "transmission": "Automatic",
+    "drive": "RWD",
+    "image": "car8.jpg",
+    "description": "BMW M4 2021 combines outstanding performance, precision handling, and luxurious comfort, offering an exhilarating driving experience on any road.",
+    "price": 130
+  },
+  {
+    "id": 9,
+    "make": "Audi",
+    "model": "RS5",
+    "fuel_type": "Petrol",
+    "year": 2022,
+    "transmission": "Automatic",
+    "drive": "AWD",
+    "image": "car9.jpg",
+    "description": "The 2022 Audi RS5 blends all-wheel drive, impressive power, and sleek design for a premium, high-performance driving experience.",
+    "price": 140
+  }
+]
