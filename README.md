@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Carent - Car Rental Platform
 
-## Getting Started
+Carent is a modern and user-friendly car rental platform built with the latest web technologies. It allows users to browse through a diverse selection of cars, view detailed information, and make reservations with a smooth and intuitive date range picker.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Browse Cars:** Explore available cars with detailed specs including make, model, year, fuel type, transmission, and pricing.
+- **Car Details Page:** View rich descriptions and images for each car.
+- **Reservation System:** Easily select rental start and end dates with a range date picker.
+- **Availability Check:** Prevent double booking by checking car availability based on existing reservations.
+- **User Authentication:** Secure login via GitHub using NextAuth.js.
+- **Responsive Design:** Built with Tailwind CSS for a beautiful and consistent experience on any device.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack & Skills Demonstrated
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js:** Leveraging server-side rendering and API routes to build a fast, SEO-friendly React application.
+- **React:** Component-driven architecture ensuring reusable, maintainable UI components.
+- **NextAuth.js:** Seamless and secure user authentication integrated with GitHub OAuth.
+- **Tailwind CSS:** Utility-first CSS framework for rapid and elegant UI styling.
+- **Git & GitHub:** Version control and collaborative workflow management.
+- **JavaScript/TypeScript:** Modern ES6+ syntax with type safety for robust coding.
+- **Local Storage & State Management:** Efficient handling of booking data and UI state.
+- **Date Handling:** Smart usage of date pickers and validation to enhance user experience.
